@@ -1,0 +1,13 @@
+while the string is true, the character will be repeated according to its order in the alphabets.
+
+while (str && str)
+{
+	t = 0;
+	r = *str - 47;
+	while (t < r)
+	{
+		write (1, str, 1);
+		t++;
+	}
+	str++;
+}
